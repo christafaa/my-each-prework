@@ -7,6 +7,6 @@ def my_each(array)
       i += 1
     end
   else
-    
+    raise ArgumentError
   end
 end
